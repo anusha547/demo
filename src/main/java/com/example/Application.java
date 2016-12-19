@@ -42,8 +42,8 @@ class GreetingController {
 		  String encodeFromFileString="";
 		try {
 			
-			String src="C:\\PVT\\srcfile.pdf";
-			String dest="C:\\PVT\\destfile.pdf";
+			String src="srcfile.pdf";
+			String dest="destfile.pdf";
 			String USER_PASS = "Hello123";
 			String OWNER_PASS = "pk123";
 			
