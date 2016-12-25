@@ -31,7 +31,7 @@ class GreetingController {
 @RequestMapping("/hello/{name}")
     String hello(@PathVariable String name) {
         return "Hello, " + name + "!";
-    }
+  }
 @RequestMapping(value = "/hello1", method = RequestMethod.POST)
 public String hello1(@RequestBody String base64String) {
 String encodeFromFileString="";
